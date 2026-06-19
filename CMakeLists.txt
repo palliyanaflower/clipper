@@ -66,7 +66,7 @@ endif()
 if(CLIPPER_BUILD_BINDINGS_PYTHON)
   FetchContent_Declare(pybind11
     GIT_REPOSITORY https://github.com/pybind/pybind11
-    GIT_TAG        v2.9.2
+    GIT_TAG        v3.0.4
   )
   FetchContent_MakeAvailable(pybind11)
 endif()
